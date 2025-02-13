@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
-@RequestMapping("/app")
+@RequestMapping("/Usuarios")
 class UsuarioController {
 
     @Autowired
@@ -90,8 +90,7 @@ class UsuarioController {
     }
 
 
-    // Get /
-    // return HOlA MUNDO
+
 
     @GetMapping("/")
     fun holamundo(): String {
